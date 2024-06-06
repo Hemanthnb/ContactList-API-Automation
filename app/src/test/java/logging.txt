@@ -1,0 +1,542 @@
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Hemanth",
+    "lastName": "N B",
+    "email": "bebe.gorczany@gmail.com",
+    "password": "ubyz9k8jps1g9"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697632424&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=b22y70bYb5jP0bRE%2BwhQEVYOqh86d9%2FPtnoTk9GlHtQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697632424&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=b22y70bYb5jP0bRE%2BwhQEVYOqh86d9%2FPtnoTk9GlHtQ%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBhODdlZTAxNzAwMTMzN2I1NTciLCJpYXQiOjE2OTc2MzI0MjR9.zNREZ9DBYsb2FK0mQ1QCVKeAi6unqsF8A_NEOl3Y3I4; Max-Age=684; Path=/; Expires=Wed, 18 Oct 2023 12:45:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 284
+Etag: W/"11c-J0IwgqcJ782oK7g3xnL9p1DhvX8"
+Date: Wed, 18 Oct 2023 12:33:44 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "652fd0a87ee017001337b557",
+        "firstName": "Hemanth",
+        "lastName": "N B",
+        "email": "bebe.gorczany@gmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBhODdlZTAxNzAwMTMzN2I1NTciLCJpYXQiOjE2OTc2MzI0MjR9.zNREZ9DBYsb2FK0mQ1QCVKeAi6unqsF8A_NEOl3Y3I4"
+}
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBhODdlZTAxNzAwMTMzN2I1NTciLCJpYXQiOjE2OTc2MzI0MjR9.zNREZ9DBYsb2FK0mQ1QCVKeAi6unqsF8A_NEOl3Y3I4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Alline",
+    "lastName": "Welch",
+    "birthdate": "1970-01-01",
+    "email": "yvone.zemlak@yahoo.com",
+    "phone": "1644442920",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Anytown",
+    "stateProvince": "KS",
+    "postalCode": "12345",
+    "country": "USA"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697632431&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=48T%2FFg3Rg%2FbA2dMVJRMDDrZQidZvhvkrWTrAP5O3QUQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697632431&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=48T%2FFg3Rg%2FbA2dMVJRMDDrZQidZvhvkrWTrAP5O3QUQ%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 318
+Etag: W/"13e-3nhoeW0ZuxaRFQPn00wwEh9HJR8"
+Date: Wed, 18 Oct 2023 12:33:51 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "652fd0af7ee017001337b559",
+    "firstName": "Alline",
+    "lastName": "Welch",
+    "birthdate": "1970-01-01",
+    "email": "yvone.zemlak@yahoo.com",
+    "phone": "1644442920",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Anytown",
+    "stateProvince": "KS",
+    "postalCode": "12345",
+    "country": "USA",
+    "owner": "652fd0a87ee017001337b557",
+    "__v": 0
+}
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Hemanth",
+    "lastName": "N B",
+    "email": "phoebe.stehr@gmail.com",
+    "password": "pjfr018o"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0MzR9.J59y-7M4WYR7pwsszUSPDlNy0thM0T4FMXvYfpcXfOk; Max-Age=684; Path=/; Expires=Wed, 18 Oct 2023 12:45:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 283
+Etag: W/"11b-MVRQ8k99dgWcI995MycwnU+rDfU"
+Date: Wed, 18 Oct 2023 12:33:54 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "652fd0b2c0366a00139b4584",
+        "firstName": "Hemanth",
+        "lastName": "N B",
+        "email": "phoebe.stehr@gmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0MzR9.J59y-7M4WYR7pwsszUSPDlNy0thM0T4FMXvYfpcXfOk"
+}
+Request method:	GET
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBhODdlZTAxNzAwMTMzN2I1NTciLCJpYXQiOjE2OTc2MzI0MjR9.zNREZ9DBYsb2FK0mQ1QCVKeAi6unqsF8A_NEOl3Y3I4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 320
+Etag: W/"140-Es38ipl1sGwY8rsKH+OGTYKxjPM"
+Date: Wed, 18 Oct 2023 12:33:55 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "_id": "652fd0af7ee017001337b559",
+        "firstName": "Alline",
+        "lastName": "Welch",
+        "birthdate": "1970-01-01",
+        "email": "yvone.zemlak@yahoo.com",
+        "phone": "1644442920",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Anytown",
+        "stateProvince": "KS",
+        "postalCode": "12345",
+        "country": "USA",
+        "owner": "652fd0a87ee017001337b557",
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0MzR9.J59y-7M4WYR7pwsszUSPDlNy0thM0T4FMXvYfpcXfOk
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 114
+Etag: W/"72-A39ZRr+rywLpfLyunbmJXB4EhEc"
+Date: Wed, 18 Oct 2023 12:34:02 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "652fd0b2c0366a00139b4584",
+    "firstName": "Hemanth",
+    "lastName": "N B",
+    "email": "phoebe.stehr@gmail.com",
+    "__v": 1
+}
+Request method:	GET
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBhODdlZTAxNzAwMTMzN2I1NTciLCJpYXQiOjE2OTc2MzI0MjR9.zNREZ9DBYsb2FK0mQ1QCVKeAi6unqsF8A_NEOl3Y3I4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 320
+Etag: W/"140-Es38ipl1sGwY8rsKH+OGTYKxjPM"
+Date: Wed, 18 Oct 2023 12:34:05 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "_id": "652fd0af7ee017001337b559",
+        "firstName": "Alline",
+        "lastName": "Welch",
+        "birthdate": "1970-01-01",
+        "email": "yvone.zemlak@yahoo.com",
+        "phone": "1644442920",
+        "street1": "1 Main St.",
+        "street2": "Apartment A",
+        "city": "Anytown",
+        "stateProvince": "KS",
+        "postalCode": "12345",
+        "country": "USA",
+        "owner": "652fd0a87ee017001337b557",
+        "__v": 0
+    }
+]
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0MzR9.J59y-7M4WYR7pwsszUSPDlNy0thM0T4FMXvYfpcXfOk
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "phoebe.stehr@gmail.com",
+    "password": "pjfr018o"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697632447&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=%2Ba%2FzMtRnRstWm6FFfqTnuZtRULBzB1SGpovUfzEWvqk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697632447&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=%2Ba%2FzMtRnRstWm6FFfqTnuZtRULBzB1SGpovUfzEWvqk%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0NDd9.n6-tgG77xa5TGfaHK1IOtcvvvVe05rlDpR77Ee0BzTs; Max-Age=36000; Path=/; Expires=Wed, 18 Oct 2023 22:34:07 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 283
+Etag: W/"11b-CdmkPqRRZND8s8jF2aBsshZ8OwQ"
+Date: Wed, 18 Oct 2023 12:34:07 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "652fd0b2c0366a00139b4584",
+        "firstName": "Hemanth",
+        "lastName": "N B",
+        "email": "phoebe.stehr@gmail.com",
+        "__v": 2
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0NDd9.n6-tgG77xa5TGfaHK1IOtcvvvVe05rlDpR77Ee0BzTs"
+}
+Request method:	PATCH
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652fd0af7ee017001337b559
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBhODdlZTAxNzAwMTMzN2I1NTciLCJpYXQiOjE2OTc2MzI0MjR9.zNREZ9DBYsb2FK0mQ1QCVKeAi6unqsF8A_NEOl3Y3I4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Assasin"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697632454&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=pgeTDryqK7UJ0zrFzJ0VeTgo5tbj3I%2BDjlif6uizNew%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697632454&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=pgeTDryqK7UJ0zrFzJ0VeTgo5tbj3I%2BDjlif6uizNew%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 319
+Etag: W/"13f-31SXRLhDmE1pzGAc6vXu8KI+tK0"
+Date: Wed, 18 Oct 2023 12:34:14 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "652fd0af7ee017001337b559",
+    "firstName": "Assasin",
+    "lastName": "Welch",
+    "birthdate": "1970-01-01",
+    "email": "yvone.zemlak@yahoo.com",
+    "phone": "1644442920",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Anytown",
+    "stateProvince": "KS",
+    "postalCode": "12345",
+    "country": "USA",
+    "owner": "652fd0a87ee017001337b557",
+    "__v": 0
+}
+Request method:	PATCH
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0NDd9.n6-tgG77xa5TGfaHK1IOtcvvvVe05rlDpR77Ee0BzTs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Davy",
+    "lastName": "Jones",
+    "email": "phoebe.stehr@gmail.com",
+    "password": "pjfr018o"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 113
+Etag: W/"71-U9DKJSQLo74V2deRTwWCMTfh8Pg"
+Date: Wed, 18 Oct 2023 12:34:15 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "652fd0b2c0366a00139b4584",
+    "firstName": "Davy",
+    "lastName": "Jones",
+    "email": "phoebe.stehr@gmail.com",
+    "__v": 2
+}
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBhODdlZTAxNzAwMTMzN2I1NTciLCJpYXQiOjE2OTc2MzI0MjR9.zNREZ9DBYsb2FK0mQ1QCVKeAi6unqsF8A_NEOl3Y3I4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Assasin",
+    "lastName": "Creed",
+    "birthdate": "1970-01-01",
+    "email": "lorriane.murazik@hotmail.com",
+    "phone": "4917688159",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Anytown",
+    "stateProvince": "KS",
+    "postalCode": "12345",
+    "country": "USA"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697632457&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=aMKIebxasUjVAm2rCE0nUl03xcbWEmKYEE%2Fvb1MML64%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697632457&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=aMKIebxasUjVAm2rCE0nUl03xcbWEmKYEE%2Fvb1MML64%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 325
+Etag: W/"145-8ECZ5JGVWqlZKy9fuZoHLU9lOCY"
+Date: Wed, 18 Oct 2023 12:34:17 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "652fd0c97ee017001337b55a",
+    "firstName": "Assasin",
+    "lastName": "Creed",
+    "birthdate": "1970-01-01",
+    "email": "lorriane.murazik@hotmail.com",
+    "phone": "4917688159",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Anytown",
+    "stateProvince": "KS",
+    "postalCode": "12345",
+    "country": "USA",
+    "owner": "652fd0a87ee017001337b557",
+    "__v": 0
+}
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0NDd9.n6-tgG77xa5TGfaHK1IOtcvvvVe05rlDpR77Ee0BzTs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697632464&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=duOlcb5bKYAs38qZA2UeJS3x5oPW9Pd7S6UajB%2BaL8M%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697632464&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=duOlcb5bKYAs38qZA2UeJS3x5oPW9Pd7S6UajB%2BaL8M%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Date: Wed, 18 Oct 2023 12:34:24 GMT
+Content-Length: 0
+Via: 1.1 vegur
+Request method:	DELETE
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652fd0c97ee017001337b55a
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBhODdlZTAxNzAwMTMzN2I1NTciLCJpYXQiOjE2OTc2MzI0MjR9.zNREZ9DBYsb2FK0mQ1QCVKeAi6unqsF8A_NEOl3Y3I4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 15
+Etag: W/"f-smqnjm2ArsFbkvZ+qy6N7Dow4bQ"
+Date: Wed, 18 Oct 2023 12:34:26 GMT
+Via: 1.1 vegur
+
+<html>
+  <body>Contact deleted</body>
+</html>
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0MzR9.J59y-7M4WYR7pwsszUSPDlNy0thM0T4FMXvYfpcXfOk
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "phoebe.stehr@gmail.com",
+    "password": "pjfr018o"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697632467&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=0uCENncfgcgpUpxoUY3F9GY9l1EGmVfZ8vu%2BnJTqir4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697632467&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=0uCENncfgcgpUpxoUY3F9GY9l1EGmVfZ8vu%2BnJTqir4%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0Njd9._BdFM4Swwg2BFt6feb4HhZXEzlPtDX97f7UzjW6xZ-c; Max-Age=36000; Path=/; Expires=Wed, 18 Oct 2023 22:34:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 282
+Etag: W/"11a-YwPT/iJrSodVc+mBEvSrXUzXA2E"
+Date: Wed, 18 Oct 2023 12:34:27 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "652fd0b2c0366a00139b4584",
+        "firstName": "Davy",
+        "lastName": "Jones",
+        "email": "phoebe.stehr@gmail.com",
+        "__v": 4
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0Njd9._BdFM4Swwg2BFt6feb4HhZXEzlPtDX97f7UzjW6xZ-c"
+}
+Request method:	DELETE
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmZDBiMmMwMzY2YTAwMTM5YjQ1ODQiLCJpYXQiOjE2OTc2MzI0Njd9._BdFM4Swwg2BFt6feb4HhZXEzlPtDX97f7UzjW6xZ-c
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "phoebe.stehr@gmail.com",
+    "password": "pjfr018o"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697632469&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=PNlMcit4Yk%2B5Vo5RPmO2tFV9rH1apu2st1jc2xpBpBM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697632469&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=PNlMcit4Yk%2B5Vo5RPmO2tFV9rH1apu2st1jc2xpBpBM%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Date: Wed, 18 Oct 2023 12:34:29 GMT
+Content-Length: 0
+Via: 1.1 vegur
